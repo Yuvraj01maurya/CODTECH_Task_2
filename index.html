@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List Web App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="logo_container">
+      <img src="./icon/Logo.svg" alt="Todo" />
+    </header>
+
+    <section class="main_container">
+      <main>
+        <form id="from">
+          <input
+            type="text"
+            placeholder="Enter Your To-do List Task"
+            id="input_text"
+            required
+          />
+          <!-- <div class="datediv"> -->
+          <!-- <label for="" id="date-label">Due Date</label> -->
+          <input type="date" id="date" placeholder="Date" required />
+
+          <!-- </div> -->
+          <select name="priority" id="priority" placeholder="Priority">
+            <option value="heigh">Priority</option>
+            <option value="heigh">Heigh</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+
+          <button type="submit" id="add">
+            Add
+            <img src="./icon/plus.svg" alt="" />
+          </button>
+
+          <!-- search and filter -->
+          <!-- <div class="filter_div">
+          <input type="text" id="search">
+          <select name="filter-priority" id="filter-priority">
+            <option value="all">Filter Priority</option>
+            <option value="all">All</option>
+            <option value="heigh">Heigh</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+        </div> -->
+        </form>
+        <!-- new task container -->
+        <section class="newtasks">
+          <div class="all_task_container">
+            <div>
+              <h4>To-do</h4>
+              <div class="all_task">0</div>
+            </div>
+            <div>
+              <h4>High Priority</h4>
+              <div class="all_Heigh_priority">0</div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="notask">
+            <img src="./icon/Clipboard.svg" alt="notask" />
+            <p>You have no To-do Items As of now</p>
+          </div>
+          <div class="newtaskadd">
+            <!--new task added to this container  -->
+
+            <!-- <input type="radio"/>
+            <div class="innettext"></div>
+            <button>Delete</button> -->
+          </div>
+        </section>
+        <!-- start task container -->
+        <section class="started">
+          <div class="all_task_container">
+            <div>
+              <h4>Started</h4>
+              <div class="start_task">0</div>
+            </div>
+            <div>
+              <h4>High Priority</h4>
+              <div class="start_Heigh_priority">0</div>
+            </div>
+          </div>
+
+          <div class="startedadd"></div>
+        </section>
+        <div class="line"></div>
+
+        <!-- completed task container -->
+        <section class="completed">
+          <div class="all_task_container">
+            <div>
+              <h4>Completed</h4>
+              <div class="completed_task">0</div>
+            </div>
+            <div>
+              <h4>High Priority</h4>
+              <div class="completed_Heigh_priority">0</div>
+            </div>
+          </div>
+
+          <div class="completedadd"></div>
+        </section>
+        <div class="line"></div>
+      </main>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
