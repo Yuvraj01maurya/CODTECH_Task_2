@@ -1,4 +1,8 @@
-# COD Task 2 - To-Do List Application
+# **TO-DO List App**
+![Screenshot_23-6-2024_201825_127 0 0 1](https://github.com/Yuvraj01maurya/CODTECH_Task_2/assets/144897557/0ac9913d-fe6b-4987-804d-3d353332b94f)
+
+## Overview
+This project is a web-based to-do list application designed to help users organize and manage their tasks efficiently.
 
 ## Project Details
 - **Name:** Yuvraj Maurya
@@ -38,4 +42,4 @@ If you wish to contribute, please fork the repository and submit a pull request.
 This project is licensed under the MIT License.
 
 ## Contact
-For any queries, please contact Yuvraj Maurya at [email@example.com](mailto:email@example.com).
+For any queries, please contact Yuvraj Maurya at yuvraj.maurya001@gmail.com.
